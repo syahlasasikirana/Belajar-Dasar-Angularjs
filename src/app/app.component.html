@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+
+<!-- <button (click)="fungsiTampil(nama)">Klik !</button>
+<br>
+<h1 (mouseover)="fungsiKonsol('MouseOver')">Contoh Mouse Over</h1>
+<br>
+<input type="text" #down (keydown)="fungsiKonsol(down.value)" />
+<br>
+<input type="text" #up (keyup)="fungsiKonsol(up.value)" /> -->
+
+<br>
+<br>
+<form action="" #form="ngForm" (ngSubmit)="getVal(form.value)">
+    <input ngModel type="number" name="nim" id="" placeholder="NIM">
+    <br><br>
+    <input ngModel type="text" name="nama" id="" placeholder="Nama Anda">
+    <br><br>
+    <input ngModel type="email" name="email" id="" placeholder="Email Anda">
+    <br><br>
+    <input ngModel type="password" name="password" id="" placeholder="Password Anda">
+    <br><br>
+    <button>Submit</button>
+</form>
